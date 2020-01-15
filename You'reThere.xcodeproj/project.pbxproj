@@ -8,14 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		A74CF7F523A0AFBA00D3F335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CF7F423A0AFBA00D3F335 /* AppDelegate.swift */; };
-		A74CF7F723A0AFBA00D3F335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CF7F623A0AFBA00D3F335 /* SceneDelegate.swift */; };
-		A74CF7F923A0AFBA00D3F335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CF7F823A0AFBA00D3F335 /* ViewController.swift */; };
+		A74CF7F923A0AFBA00D3F335 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CF7F823A0AFBA00D3F335 /* HomeViewController.swift */; };
 		A74CF7FC23A0AFBA00D3F335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74CF7FA23A0AFBA00D3F335 /* Main.storyboard */; };
-		A74CF7FF23A0AFBA00D3F335 /* You_reThere.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A74CF7FD23A0AFBA00D3F335 /* You_reThere.xcdatamodeld */; };
 		A74CF80123A0AFBD00D3F335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74CF80023A0AFBD00D3F335 /* Assets.xcassets */; };
 		A74CF80423A0AFBD00D3F335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74CF80223A0AFBD00D3F335 /* LaunchScreen.storyboard */; };
 		A74CF80F23A0AFBD00D3F335 /* You_reThereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CF80E23A0AFBD00D3F335 /* You_reThereTests.swift */; };
 		A74CF81A23A0AFBD00D3F335 /* You_reThereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CF81923A0AFBD00D3F335 /* You_reThereUITests.swift */; };
+		A74CF82823A1BF6C00D3F335 /* AddGeoAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CF82723A1BF6C00D3F335 /* AddGeoAlertViewController.swift */; };
+		A799158523BD71C600DF3F8A /* DaySelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A799158323BD71C600DF3F8A /* DaySelectorCollectionViewCell.swift */; };
+		A799158623BD71C600DF3F8A /* DaySelectorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A799158423BD71C600DF3F8A /* DaySelectorCollectionViewCell.xib */; };
+		A799158823BD734500DF3F8A /* DaySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A799158723BD734500DF3F8A /* DaySelectionViewController.swift */; };
+		A7AF0DCE23A884A000295628 /* Apple.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A7AF0DCB23A884A000295628 /* Apple.gpx */; };
+		A7AF0DCF23A884A000295628 /* SimulatedLocations.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A7AF0DCC23A884A000295628 /* SimulatedLocations.gpx */; };
+		A7AF0DD023A884A000295628 /* Google.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A7AF0DCD23A884A000295628 /* Google.gpx */; };
+		A7AF0DD223AB47E200295628 /* GeoAlertLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF0DD123AB47E200295628 /* GeoAlertLocationManager.swift */; };
+		A7EE6AB123A1FC51002E5BE9 /* GeoLocationsResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EE6AB023A1FC51002E5BE9 /* GeoLocationsResultTableViewController.swift */; };
+		A7EE6AB323A212FC002E5BE9 /* GeoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EE6AB223A212FC002E5BE9 /* GeoAlert.swift */; };
+		A7EE6AB523A30DA9002E5BE9 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EE6AB423A30DA9002E5BE9 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +47,8 @@
 /* Begin PBXFileReference section */
 		A74CF7F123A0AFBA00D3F335 /* You'reThere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "You'reThere.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74CF7F423A0AFBA00D3F335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A74CF7F623A0AFBA00D3F335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A74CF7F823A0AFBA00D3F335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A74CF7F823A0AFBA00D3F335 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A74CF7FB23A0AFBA00D3F335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A74CF7FE23A0AFBA00D3F335 /* You_reThere.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = You_reThere.xcdatamodel; sourceTree = "<group>"; };
 		A74CF80023A0AFBD00D3F335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74CF80323A0AFBD00D3F335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A74CF80523A0AFBD00D3F335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +58,17 @@
 		A74CF81523A0AFBD00D3F335 /* You'reThereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "You'reThereUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74CF81923A0AFBD00D3F335 /* You_reThereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = You_reThereUITests.swift; sourceTree = "<group>"; };
 		A74CF81B23A0AFBD00D3F335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74CF82723A1BF6C00D3F335 /* AddGeoAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGeoAlertViewController.swift; sourceTree = "<group>"; };
+		A799158323BD71C600DF3F8A /* DaySelectorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySelectorCollectionViewCell.swift; sourceTree = "<group>"; };
+		A799158423BD71C600DF3F8A /* DaySelectorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DaySelectorCollectionViewCell.xib; sourceTree = "<group>"; };
+		A799158723BD734500DF3F8A /* DaySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySelectionViewController.swift; sourceTree = "<group>"; };
+		A7AF0DCB23A884A000295628 /* Apple.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Apple.gpx; path = "You'reThere/Apple.gpx"; sourceTree = SOURCE_ROOT; };
+		A7AF0DCC23A884A000295628 /* SimulatedLocations.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SimulatedLocations.gpx; path = "You'reThere/SimulatedLocations.gpx"; sourceTree = SOURCE_ROOT; };
+		A7AF0DCD23A884A000295628 /* Google.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Google.gpx; path = "You'reThere/Google.gpx"; sourceTree = SOURCE_ROOT; };
+		A7AF0DD123AB47E200295628 /* GeoAlertLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoAlertLocationManager.swift; sourceTree = "<group>"; };
+		A7EE6AB023A1FC51002E5BE9 /* GeoLocationsResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocationsResultTableViewController.swift; sourceTree = "<group>"; };
+		A7EE6AB223A212FC002E5BE9 /* GeoAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoAlert.swift; sourceTree = "<group>"; };
+		A7EE6AB423A30DA9002E5BE9 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7131DE323CED86D00086140 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7AF0DD323AC899200295628 /* DaySelector */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A7131DE423CED87C00086140 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7EE6AB223A212FC002E5BE9 /* GeoAlert.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7131DE523CED89500086140 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A7EE6AB423A30DA9002E5BE9 /* Common.swift */,
+				A7AF0DD123AB47E200295628 /* GeoAlertLocationManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A7131DE623CED8B500086140 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A74CF80223A0AFBD00D3F335 /* LaunchScreen.storyboard */,
+				A74CF7FA23A0AFBA00D3F335 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A7131DE723CED8E000086140 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A74CF7F823A0AFBA00D3F335 /* HomeViewController.swift */,
+				A74CF82723A1BF6C00D3F335 /* AddGeoAlertViewController.swift */,
+				A7EE6AB023A1FC51002E5BE9 /* GeoLocationsResultTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		A74CF7E823A0AFBA00D3F335 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +163,15 @@
 		A74CF7F323A0AFBA00D3F335 /* You'reThere */ = {
 			isa = PBXGroup;
 			children = (
+				A7131DE723CED8E000086140 /* Controllers */,
+				A7131DE623CED8B500086140 /* Storyboards */,
+				A7131DE523CED89500086140 /* Utilities */,
+				A7131DE423CED87C00086140 /* Models */,
+				A7131DE323CED86D00086140 /* Views */,
+				A7AF0DCA23A8844800295628 /* Resources */,
 				A74CF7F423A0AFBA00D3F335 /* AppDelegate.swift */,
-				A74CF7F623A0AFBA00D3F335 /* SceneDelegate.swift */,
-				A74CF7F823A0AFBA00D3F335 /* ViewController.swift */,
-				A74CF7FA23A0AFBA00D3F335 /* Main.storyboard */,
-				A74CF80023A0AFBD00D3F335 /* Assets.xcassets */,
-				A74CF80223A0AFBD00D3F335 /* LaunchScreen.storyboard */,
 				A74CF80523A0AFBD00D3F335 /* Info.plist */,
-				A74CF7FD23A0AFBA00D3F335 /* You_reThere.xcdatamodeld */,
+				A74CF80023A0AFBD00D3F335 /* Assets.xcassets */,
 			);
 			path = "You'reThere";
 			sourceTree = "<group>";
@@ -129,6 +192,26 @@
 				A74CF81B23A0AFBD00D3F335 /* Info.plist */,
 			);
 			path = "You'reThereUITests";
+			sourceTree = "<group>";
+		};
+		A7AF0DCA23A8844800295628 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7AF0DCB23A884A000295628 /* Apple.gpx */,
+				A7AF0DCD23A884A000295628 /* Google.gpx */,
+				A7AF0DCC23A884A000295628 /* SimulatedLocations.gpx */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7AF0DD323AC899200295628 /* DaySelector */ = {
+			isa = PBXGroup;
+			children = (
+				A799158323BD71C600DF3F8A /* DaySelectorCollectionViewCell.swift */,
+				A799158423BD71C600DF3F8A /* DaySelectorCollectionViewCell.xib */,
+				A799158723BD734500DF3F8A /* DaySelectionViewController.swift */,
+			);
+			path = DaySelector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +318,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7AF0DCF23A884A000295628 /* SimulatedLocations.gpx in Resources */,
+				A7AF0DCE23A884A000295628 /* Apple.gpx in Resources */,
+				A799158623BD71C600DF3F8A /* DaySelectorCollectionViewCell.xib in Resources */,
+				A7AF0DD023A884A000295628 /* Google.gpx in Resources */,
 				A74CF80423A0AFBD00D3F335 /* LaunchScreen.storyboard in Resources */,
 				A74CF80123A0AFBD00D3F335 /* Assets.xcassets in Resources */,
 				A74CF7FC23A0AFBA00D3F335 /* Main.storyboard in Resources */,
@@ -262,10 +349,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74CF7F923A0AFBA00D3F335 /* ViewController.swift in Sources */,
+				A7EE6AB323A212FC002E5BE9 /* GeoAlert.swift in Sources */,
+				A7EE6AB123A1FC51002E5BE9 /* GeoLocationsResultTableViewController.swift in Sources */,
+				A74CF7F923A0AFBA00D3F335 /* HomeViewController.swift in Sources */,
+				A74CF82823A1BF6C00D3F335 /* AddGeoAlertViewController.swift in Sources */,
 				A74CF7F523A0AFBA00D3F335 /* AppDelegate.swift in Sources */,
-				A74CF7F723A0AFBA00D3F335 /* SceneDelegate.swift in Sources */,
-				A74CF7FF23A0AFBA00D3F335 /* You_reThere.xcdatamodeld in Sources */,
+				A799158523BD71C600DF3F8A /* DaySelectorCollectionViewCell.swift in Sources */,
+				A7EE6AB523A30DA9002E5BE9 /* Common.swift in Sources */,
+				A799158823BD734500DF3F8A /* DaySelectionViewController.swift in Sources */,
+				A7AF0DD223AB47E200295628 /* GeoAlertLocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +531,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M8RRX33VV;
 				INFOPLIST_FILE = "You'reThere/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +550,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M8RRX33VV;
 				INFOPLIST_FILE = "You'reThere/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,19 +684,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A74CF7FD23A0AFBA00D3F335 /* You_reThere.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A74CF7FE23A0AFBA00D3F335 /* You_reThere.xcdatamodel */,
-			);
-			currentVersion = A74CF7FE23A0AFBA00D3F335 /* You_reThere.xcdatamodel */;
-			path = You_reThere.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A74CF7E923A0AFBA00D3F335 /* Project object */;
 }
